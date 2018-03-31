@@ -1,0 +1,55 @@
+.background-image {
+	background-image: url("https://cdn.rawgit.com/creativetimofficial/paper-kit/bootstrap4-development/assets/img/antoine-barres.jpg");
+}
+
+
+.presentation-title {
+  font-size: 5em;
+  }
+h6.danger{
+	color: #f5593d;
+}
+h4 {
+	font-weight: bold;
+}
+#stopinst {
+	display: none;
+}
+
+.reload { font-family: Lucida Sans Unicode }
+
+#q1next {
+	display: none;
+}
+
+#q2next {
+	display: none;
+}
+
+.space {
+	width: 50px;
+}
+
+.wowSelected {
+	font-weight: bold;
+	font-family: 'Georgia';
+	color: darkgreen;
+}
+
+.goodSelected {
+	font-weight: bold;
+	font-family: 'Georgia';
+	color: rgb(0,255,0);
+}
+
+.fineSelected {
+	font-weight: bold;
+	font-family: 'Georgia';
+	color: rgba(0,255,255);
+}
+
+.badSelected {
+	font-weight: bold;
+	font-family: 'Georgia';
+	color: red;
+}

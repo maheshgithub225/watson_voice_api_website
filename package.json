@@ -2,15 +2,31 @@
   "name": "my_coding_challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maheshgithub225.github.io/watson_voice_api_website",
   "dependencies": {
+    "cors": "^2.8.4",
+    "emoji-datasource-facebook": "^4.0.3",
+    "express": "^4.16.3",
+    "express-rate-limit": "^2.11.0",
+    "express-secure-only": "^0.2.1",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "twemoji-awesome": "^1.0.6",
+    "watson-developer-cloud": "^3.2.1",
+    "watson-speech": "^0.34.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-react-html-attrs": "^2.1.0"
   }
 }

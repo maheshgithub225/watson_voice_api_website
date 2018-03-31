@@ -1,0 +1,44 @@
+.Question1 {
+	width: 33.67%;
+}
+.Question2{
+	width: 67%;
+}
+.Question3{
+	width: 100%;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+h4.fontstyle {
+	font-family: 'Georgia';
+}
+
+.instruction {
+	background-color: #f5593d;
+}
+
+.microphone {
+	padding: 5px;
+}
+
+#name {
+	display: block;
+}
+
+#challenge {
+	display: none;
+}
+
+#rating {
+	display: none;
+}
+
+#stopbtn {
+	display: none;
+}
+
+
+
